@@ -1,0 +1,163 @@
+.NewsPart1{
+
+    background-color: var(--Brand-Secondary-Alice-Blue, #F1F3FF);
+    padding-bottom: 31px;
+
+    .NewsPart1_wrapper{
+        display: flex;
+        position: relative;
+   
+
+        h2{
+            padding-top: 19px;
+            color: var(--Brand-Primary-Cetacean-Blue, #080E54);
+            color:  #080E54;
+            font-family: Montserrat;
+            font-size: 34px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 150%; 
+            max-width: 117px;
+
+            span{
+                color: var(--Brand-Primary-Turquoise, #47EEC7);
+                font-family: Montserrat;
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%;
+            }
+        }
+
+        p{
+            color: #A1A1A1;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            margin-top: 55px;
+        }
+
+        hr{
+            max-width: 554px;
+            opacity: 0.2;
+            stroke-width: 1px;
+            stroke: #030E53;
+        }
+
+        .Industries, .Regions{
+            max-width: 554px;
+
+            h3{
+                color: var(--Brand-Primary-Cetacean-Blue, #080E54);
+                font-family: Montserrat;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; 
+            }
+
+            ul{
+                margin-top: 12px;
+                display: flex;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                gap: 16px;
+
+                button{
+                    padding: 8px 16px;
+                    border: none;
+                    border-radius: 4px;
+                    background-color: rgba(3, 14, 83, 0.10);
+                    color: var(--Brand-Primary-Sapphire, #005CBE);
+                    // text-align: center;
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 100%;
+                }
+            }
+        }
+
+        .Industries{
+            margin-top: 17px;
+        
+            li:nth-child(4) {
+                button{
+                    width: 140px;
+                }
+            }
+        }
+        
+        .Regions{
+            margin-top: 43px;
+        }
+
+        .reset{
+            margin-top: 60px;
+
+            span{
+                color: var(--Brand-Primary-Sapphire, #005CBE);
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%;
+                margin-left: 6px;
+            }
+
+        }
+
+        .map{
+            .map1, .map2, .map3, .map4, .map5, .map6, .map7, .map8{
+                position: absolute;       
+            }
+
+            .map1{
+                top: 71px;
+                right: 175px;
+            }
+
+            .map2{
+                top: 310px;
+                right: 108.4px;
+            }
+
+            .map3{
+                top: 100.27px;
+                right: 130.76px;
+            }
+
+            .map4{
+                top: 297px;
+                right: 194.55px;
+            }
+
+            .map5{
+                top: 280px;
+                right: 196px;
+            }
+
+            .map6{
+                top: 273px;
+                right: 217.59px;
+            }
+
+            .map7{
+                top: 292px;
+                right: 212.2px;
+            }
+
+            .map8{
+                top: 89.5px;
+                right: 192.8px;
+            }
+        }
+    }   
+}
+
+
+
+

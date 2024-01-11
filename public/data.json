@@ -1,0 +1,282 @@
+[
+    {
+      "id": 1,
+      "Industries": ["Oil and Gas", "Construction", "Finance"],
+      "Regions": ["Jahra", "Al Farwaniyah", "Kuwait city"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 2,
+      "Industries": ["Healthcare", "Manufacturing", "Agriculture"],
+      "Regions": ["Bubiyan Island", "Mubarak Al-Kabeer", "Hawalli"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 3,
+      "Industries": ["Tourism", "Banking", "Oil and Gas"],
+      "Regions": ["Jahra", "Kuwait city", "Hawalli"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 4,
+      "Industries": ["Finance", "Manufacturing", "Tourism"],
+      "Regions": ["Al Farwaniyah", "Bubiyan Island", "Mubarak Al-Kabeer"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 5,
+      "Industries": ["Construction", "Healthcare", "Banking"],
+      "Regions": ["Kuwait city", "Hawalli", "Jahra"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 6,
+      "Industries": ["Agriculture", "Oil and Gas", "Manufacturing"],
+      "Regions": ["Bubiyan Island", "Mubarak Al-Kabeer", "Jahra"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 7,
+      "Industries": ["Banking", "Finance", "Healthcare"],
+      "Regions": ["Hawalli", "Kuwait city", "Al Farwaniyah"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 8,
+      "Industries": ["Tourism", "Oil and Gas", "Construction"],
+      "Regions": ["Jahra", "Kuwait city", "Bubiyan Island"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 9,
+      "Industries": ["Manufacturing", "Agriculture", "Banking"],
+      "Regions": ["Mubarak Al-Kabeer", "Al Farwaniyah", "Hawalli"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 10,
+      "Industries": ["Healthcare", "Tourism", "Finance"],
+      "Regions": ["Kuwait city", "Hawalli", "Bubiyan Island"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 11,
+      "Industries": ["Construction", "Oil and Gas", "Manufacturing"],
+      "Regions": ["Al Farwaniyah", "Jahra", "Mubarak Al-Kabeer"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 12,
+      "Industries": ["Banking", "Agriculture", "Healthcare"],
+      "Regions": ["Hawalli", "Bubiyan Island", "Kuwait city"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 13,
+      "Industries": ["Finance", "Tourism", "Oil and Gas"],
+      "Regions": ["Bubiyan Island", "Mubarak Al-Kabeer", "Jahra"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 14,
+      "Industries": ["Manufacturing", "Banking", "Agriculture"],
+      "Regions": ["Kuwait city", "Hawalli", "Al Farwaniyah"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 15,
+      "Industries": ["Healthcare", "Construction", "Tourism"],
+      "Regions": ["Jahra", "Bubiyan Island", "Mubarak Al-Kabeer"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 16,
+      "Industries": ["Oil and Gas", "Finance", "Banking"],
+      "Regions": ["Hawalli", "Kuwait city", "Al Farwaniyah"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 17,
+      "Industries": ["Agriculture", "Tourism", "Manufacturing"],
+      "Regions": ["Mubarak Al-Kabeer", "Bubiyan Island", "Jahra"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 18,
+      "Industries": ["Healthcare", "Construction", "Oil and Gas"],
+      "Regions": ["Kuwait city", "Hawalli", "Bubiyan Island"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 19,
+      "Industries": ["Banking", "Finance", "Tourism"],
+      "Regions": ["Al Farwaniyah", "Jahra", "Mubarak Al-Kabeer"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 20,
+      "Industries": ["Manufacturing", "Agriculture", "Banking"],
+      "Regions": ["Bubiyan Island", "Mubarak Al-Kabeer", "Kuwait city"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 21,
+      "Industries": ["Construction", "Healthcare", "Tourism"],
+      "Regions": ["Jahra", "Bubiyan Island", "Hawalli"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 22,
+      "Industries": ["Oil and Gas", "Manufacturing", "Finance"],
+      "Regions": ["Kuwait city", "Hawalli", "Al Farwaniyah"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 23,
+      "Industries": ["Banking", "Agriculture", "Healthcare"],
+      "Regions": ["Mubarak Al-Kabeer", "Al Farwaniyah", "Bubiyan Island"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 24,
+      "Industries": ["Tourism", "Oil and Gas", "Construction"],
+      "Regions": ["Jahra", "Kuwait city", "Bubiyan Island"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 25,
+      "Industries": ["Healthcare", "Finance", "Banking"],
+      "Regions": ["Al Farwaniyah", "Bubiyan Island", "Hawalli"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 26,
+      "Industries": ["Manufacturing", "Tourism", "Agriculture"],
+      "Regions": ["Mubarak Al-Kabeer", "Jahra", "Kuwait city"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 27,
+      "Industries": ["Construction", "Oil and Gas", "Banking"],
+      "Regions": ["Hawalli", "Kuwait city", "Al Farwaniyah"],
+      "header": "Government decision for SME",
+      "title": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's st.",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    },
+    {
+      "id": 28,
+      "Industries": ["Agriculture", "Healthcare", "Finance"],
+      "Regions": ["Bubiyan Island", "Jahra", "Mubarak Al-Kabeer"],
+      "header": "Government decision for SME",
+      "photo": "./src/assets/Images/cardPhoto.png",
+      "button1": "Law",
+      "button2": "Startups",
+      "date": "23.03.2023"
+    }
+]

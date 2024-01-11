@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;  
+    background-color: #F9FBFD;
+   
+    .menu{
+        // margin-left: 90px;
+        height:fit-content;
+        padding-top: 45px;
+    }
+
+    .logo{
+        padding-top: 28px;
+        padding-bottom: 41px;
+        margin: 0 auto;
+    }
+
+    .sign_in{
+        color: #020E54;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; 
+        margin-right: 87px;
+        padding-top: 39px;
+    }
+}
