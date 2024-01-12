@@ -1,6 +1,6 @@
 .NewsPart1{
 
-    background-color: var(--Brand-Secondary-Alice-Blue, #F1F3FF);
+    background-color: var(--Brand-Secondary-Alice-Blue);
     padding-bottom: 31px;
 
     .NewsPart1_wrapper{
@@ -10,7 +10,7 @@
 
         h2{
             padding-top: 19px;
-            color: var(--Brand-Primary-Cetacean-Blue, #080E54);
+            color: var(--Brand-Primary-Cetacean-Blue);
             color:  #080E54;
             font-family: Montserrat;
             font-size: 34px;
@@ -20,7 +20,7 @@
             max-width: 117px;
 
             span{
-                color: var(--Brand-Primary-Turquoise, #47EEC7);
+                color: var(--Brand-Primary-Turquoise);
                 font-family: Montserrat;
                 font-size: 34px;
                 font-style: normal;
@@ -50,12 +50,24 @@
             max-width: 554px;
 
             h3{
-                color: var(--Brand-Primary-Cetacean-Blue, #080E54);
+                color: var(--Brand-Primary-Cetacean-Blue);
                 font-family: Montserrat;
                 font-size: 18px;
                 font-style: normal;
                 font-weight: 600;
                 line-height: 150%; 
+                position: relative;
+            }
+            h3::after{
+                content: "";
+                display: block;
+                background-color: grey;
+                width: 554px;
+                opacity: 0.2;
+                height: 1px;
+                position: absolute;
+                bottom: 0;
+                border-radius: 1.5px;
             }
 
             ul{
@@ -70,7 +82,7 @@
                     border: none;
                     border-radius: 4px;
                     background-color: rgba(3, 14, 83, 0.10);
-                    color: var(--Brand-Primary-Sapphire, #005CBE);
+                    color: var(--Brand-Primary-Sapphire);
                     // text-align: center;
                     font-family: Inter;
                     font-size: 16px;
@@ -99,7 +111,7 @@
             margin-top: 60px;
 
             span{
-                color: var(--Brand-Primary-Sapphire, #005CBE);
+                color: var(--Brand-Primary-Sapphire);
                 font-family: Montserrat;
                 font-size: 16px;
                 font-style: normal;
@@ -110,8 +122,19 @@
 
         }
 
+        .reset::after{
+            content: "";
+            display: block;
+            width: 122px;
+            height: 1.5px;
+            background-color: var(--Brand-Primary-Sapphire);
+            position: absolute;
+            bottom: 0;
+            border-radius: 1.5px;
+        }
+
         .map{
-            .map1, .map2, .map3, .map4, .map5, .map6, .map7, .map8{
+            .map1, .map2, .map3, .map4, .map5, .map6, .map7, .map8, .map9{
                 position: absolute;       
             }
 
@@ -132,7 +155,7 @@
 
             .map4{
                 top: 297px;
-                right: 194.55px;
+                right: 194px;
             }
 
             .map5{
@@ -153,6 +176,11 @@
             .map8{
                 top: 89.5px;
                 right: 192.8px;
+            }
+
+            .map9{
+                top: 70px;
+                right: 1px;
             }
         }
     }   

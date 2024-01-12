@@ -1,0 +1,176 @@
+.NewsPart2{
+    background-color: #F9FBFD;
+    padding-top: 48px;
+
+    .cards_wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        // gap: 21px;
+        justify-content: space-between;
+        margin-right: 90px;
+        
+        
+   
+
+        .card{
+            width: 299px;
+            height: 337px;
+            border-radius: 10px;
+            border: 1px solid #D8E1EA;
+            background: var(--Brand-Secondary-White);
+            padding-left: 18px;
+            padding-bottom: 14px;
+            margin-bottom: 20px;
+
+            h2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+               
+                max-width: 260px;
+                height: 68px;
+                color: var(--Brand-Primary-Cetacean-Blue);
+                font-family: Montserrat;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; 
+                margin-top: 14px;
+                padding-right: 5px;
+                margin-bottom: 9px;
+            }
+
+            p:first-of-type{
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 11px;
+                
+                max-width: 263px;
+                height: 115px;
+                color: var(--Brand-Secondary-Dim-Gray);
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%; 
+                padding-right: 18px;
+                margin-bottom: 48px;
+                
+            }
+
+            .card_button_wrapper{
+                display: flex;
+                gap: 9px;
+                margin-bottom: 11px;
+
+                button{   
+                    border-radius: 15px;
+                    border: 1px solid #B5C3D2;
+                    background: var(--Brand-Secondary-White);
+                    color: #B5C3D2;
+                    text-align: center;
+                    font-family: Montserrat;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                flex-direction: column;
+                justify-content: center;
+                }
+
+                button:nth-child(1){
+                    width: 61px;
+                    height: 26px;
+                }
+
+                button:nth-child(2){
+                    width: 92px;
+                    height: 26px;
+                }
+            }
+
+            p:last-of-type{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 96px;
+                height: 20px;
+
+                color: #B5C3D2;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%; 
+
+            }
+
+            img{
+                padding-top: 18px;
+                width: 263px;
+                height: 156px;
+                border-radius: 10px;
+            }
+
+        }
+    }
+
+    .pagination{
+        display: flex;
+        gap: 16px;
+
+        .break-me, .page_button, .prev_button, .next_button{
+            height: 42px;
+            border-radius: 10px;
+            border: 1px solid rgba(104, 104, 104, 0.30);
+            background: var(--Gray-White, #FFF);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .prev_button, .next_button{
+            color: var(--Brand-Primary-Cetacean-Blue, #080E54);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 160%; 
+            letter-spacing: 0.32px;
+            padding: 8px 33px 9px 33px;
+        }
+
+        .prev_button{
+            width: 147px; 
+        }
+
+        .next_button{
+            width: 110px;
+        }
+
+        .page_button{
+            padding: 8px 0px;
+            color: var(--Brand-Primary-Cetacean-Blue, #080E54);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 160%; 
+            letter-spacing: 0.32px;
+        }
+
+        .break-me, .page_button{
+            width: 48px;
+            
+        }
+
+
+    }
+
+}

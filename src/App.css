@@ -11,6 +11,7 @@
     padding-left: 90px;
 }
 
+
 ul{
     list-style-type: none;
   }
@@ -18,3 +19,12 @@ ul{
 a{
     text-decoration: none;
 }
+
+:root {
+    --Brand-Secondary-Alice-Blue: #F1F3FF;
+    --Brand-Primary-Cetacean-Blue: #080E54;
+    --Brand-Primary-Turquoise: #47EEC7;
+    --Brand-Primary-Sapphire: #005CBE;
+    --Brand-Secondary-White: #FFF;
+    --Brand-Secondary-Dim-Gray: #686868;
+  }

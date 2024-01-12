@@ -12,6 +12,7 @@ import map5 from "../../assets/Images/map5.svg";
 import map6 from "../../assets/Images/map6.svg";
 import map7 from "../../assets/Images/map7.svg";
 import map8 from "../../assets/Images/map8.svg";
+import map9 from "../../assets/Images/map9.svg";
 
 function NewsPart1() {
     return (
@@ -26,7 +27,7 @@ function NewsPart1() {
 
                     <div className='Industries'>
                         <h3>Industries</h3>
-                        <hr />
+                        {/* <hr /> */}
 
                         <ul>
                             {Industries.map(({id, name}) =>{
@@ -41,7 +42,7 @@ function NewsPart1() {
 
                     <div className='Regions'>
                         <h3>Regions</h3>
-                        <hr />
+                        {/* <hr /> */}
 
                         <ul>
                             {Regions.map(({id, name}) =>{
@@ -69,6 +70,7 @@ function NewsPart1() {
                     <img src={map6} alt="map6" className='map6'/>
                     <img src={map7} alt="map7" className='map7'/>
                     <img src={map8} alt="map8" className='map8'/>
+                    <img src={map9} alt="map8" className='map9'/>
                 </div>
             </div>
         </div>
