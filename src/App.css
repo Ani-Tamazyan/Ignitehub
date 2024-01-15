@@ -27,4 +27,5 @@ a{
     --Brand-Primary-Sapphire: #005CBE;
     --Brand-Secondary-White: #FFF;
     --Brand-Secondary-Dim-Gray: #686868;
+    --Brand-Tertiary-Linear: linear-gradient(180deg, #00EAB2 0%, #005CBE 100%);
   }

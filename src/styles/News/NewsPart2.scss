@@ -1,16 +1,13 @@
 .NewsPart2{
     background-color: #F9FBFD;
     padding-top: 48px;
+    padding-right: 90px;
 
     .cards_wrapper{
         display: flex;
         flex-wrap: wrap;
-        // gap: 21px;
         justify-content: space-between;
-        margin-right: 90px;
         
-        
-   
 
         .card{
             width: 299px;
@@ -123,7 +120,10 @@
 
     .pagination{
         display: flex;
+        justify-content: flex-end;
+        width: 100%;
         gap: 16px;
+        padding-bottom: 70px;
 
         .break-me, .page_button, .prev_button, .next_button{
             height: 42px;
@@ -168,6 +168,11 @@
         .break-me, .page_button{
             width: 48px;
             
+        }
+
+        .active{
+            background-color: var(--Brand-Primary-Sapphire);
+            color: var(--Brand-Secondary-White);
         }
 
 

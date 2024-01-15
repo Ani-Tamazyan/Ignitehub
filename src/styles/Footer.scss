@@ -1,0 +1,180 @@
+.Footer{
+    background-color: var(--Brand-Primary-Cetacean-Blue);
+
+    .Footer_front{
+        h2{
+            padding-top: 64px;
+            margin: 0 auto;  
+            max-width: 1174px;
+
+            color: var(--Brand-Secondary-White, #FFF);
+            font-family: Montserrat;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%; 
+        }
+
+        p{
+            color: var(--Brand-Secondary-White);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%; 
+
+        }
+
+        p::after{
+            content: "";
+            display: block;
+            max-width: 1174px;
+            height: 1px;
+            border-radius: 1px;
+            background-color: #919191;
+            margin-top: 32px;
+        }
+    }
+
+    .Footer_midle{
+        margin: 0 auto;
+        max-width: 1174px;
+        margin-top: 32px;
+        display: flex;
+        // justify-content: center;
+        justify-content: space-between;
+
+        .footer_links{
+            display: flex;
+            gap: 111px;
+        }
+
+        h3{
+            color: var(--Brand-Primary-Turquoise, #47EEC7);
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%; 
+        }
+
+        h3::after{
+            content: "";
+            display: block;
+            width: 184px;
+            height: 1px;
+            border-radius: 1px;
+            background-color: var(--Brand-Primary-Turquoise);
+        }
+
+        li{
+            color: var(--Brand-Secondary-White);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%; 
+            margin-top: 20px;
+        }
+
+        p{
+            margin-top: 10px;
+            margin-bottom: 16px;
+            max-width: 389px;
+            color: var(--Brand-Secondary-White);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 150%; 
+        }
+
+        .email_input{
+            border-radius: 6px;
+            border: 1px solid  var(--Brand-Tertiary-Linear);
+
+
+            input{
+                width: 281px;
+                height: 44px;
+                padding: 10px 0 10px 20px;
+                color: rgba(255, 255, 255, 0.30);
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; 
+                background: rgba(71, 238, 199, 0.04);
+                border-radius: 6px;
+                border: none;
+            }
+
+            button{
+                width: 109px;
+                height: 44px;
+                border-radius: 0px 6px 6px 0px;
+                background: var(--Brand-Tertiary-Linear, linear-gradient(180deg, #00EAB2 0%, #005CBE 100%));
+                border: none;
+                color: var(--Brand-Secondary-White, #FFF);
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%; 
+
+            }
+        }
+        
+    }
+
+
+    
+    .Footer_bottom_wrapper::before{
+        content: "";
+        display: block;
+        max-width: 1174px;
+        height: 1px;
+        border-radius: 1px;
+        background-color: #919191;
+        margin-top: 32px;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+
+    .Footer_bottom{
+        margin: 0 auto;
+        display: flex;
+        margin-top: 21px;
+        justify-content: space-between;
+        max-width: 1174px;
+
+        .Footer_bottom_left{
+            display: flex;
+            justify-content: space-between;
+            width: 240px;
+            
+            img{
+                width: 12px;
+                height: 12px;
+            }
+
+            span, p{
+                display: inline;
+                color: var(--Brand-Secondary-White);
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; 
+            }
+
+            
+        }
+        .icons{
+            display: flex;
+            gap: 28px;
+        }
+    }
+
+    
+}
