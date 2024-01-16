@@ -116,7 +116,13 @@
             }
 
         }
+
+        i{
+            width: 299px;
+            height: 0px;
+        }
     }
+
 
     .pagination{
         display: flex;
@@ -174,7 +180,6 @@
             background-color: var(--Brand-Primary-Sapphire);
             color: var(--Brand-Secondary-White);
         }
-
 
     }
 

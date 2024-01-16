@@ -1,5 +1,3 @@
-import React from 'react'
-
 import "../styles/Footer.scss"
 
 import facebook from "../assets/Images/facebook.svg"
@@ -7,10 +5,13 @@ import instagram from "../assets/Images/instagram.svg"
 import linkedin from "../assets/Images/linkedin.svg"
 import twitter from "../assets/Images/twitter.svg"
 import Privacy from "../assets/Images/Privacy.svg"
+import small_logo from "../assets/Images/small_logo.png"
+import arrow from "../assets/Images/arrow.svg"
 
 export default function  Footer() {
     const investors = ["Business In GCC", "Investment Projects", "Become a Partner"];
     const company = ["Our Services", "News", "FAQ"];
+    const buttons = ["Projects", "Franchise Opp.", "Business In GCC", "Get In Touch"]
 
   return (
     <div className='Footer'>
@@ -50,10 +51,12 @@ export default function  Footer() {
             <div className='newsletter'>
                 <h3>Newsletter</h3>
                 <p>Subscribe to our newsletter to get our latest news and updates.</p>
-                <div className="email_input">
-                    <input type="email" placeholder='Enter Your Email' />
-                    <button>Subscribe</button>
-                </div>
+                {/* <div className="email_input_wrapper"> */}
+                    <div className="email_input">
+                        <input type="email" placeholder='Enter Your Email' />
+                        <button>Subscribe</button>
+                    </div>
+                {/* </div> */}
                 
             </div>
         </div>
@@ -75,6 +78,21 @@ export default function  Footer() {
                 <img src={linkedin} alt="linkedin" />
             </div>
         </div>
+        </div>
+
+        <div className="footer_buttons_wrapper">
+        
+            <div className="footer_buttons">
+                <img src={small_logo} alt="small_logo" />
+                <ul>
+                    {buttons.map((elem, index) =>
+                    <li key={index}>
+                        <button>{elem}</button>
+                    </li>
+                    )}
+                </ul>
+                <img src={arrow} alt="arrow" />
+            </div>
         </div>
     </div>
   )

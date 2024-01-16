@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <div className='navbar left_padding'>
             <img src={menu} alt="menu" className='menu'/>
-            <img src={logo} alt="logo" className='logo'/>
+                <img src={logo} alt="logo" className='logo'/>
             <div className='sign_in'>
                 Sign In
             </div>

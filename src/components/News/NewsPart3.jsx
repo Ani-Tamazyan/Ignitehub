@@ -21,3 +21,4 @@ export default function NewsPart3() {
     </div>
   )
 }
+
