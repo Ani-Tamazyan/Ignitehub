@@ -29,3 +29,10 @@ a{
     --Brand-Secondary-Dim-Gray: #686868;
     --Brand-Tertiary-Linear: linear-gradient(180deg, #00EAB2 0%, #005CBE 100%);
   }
+
+
+@media only screen and (max-width: 768px) {
+    .left_padding{
+        padding-left: 20px;
+    }
+}

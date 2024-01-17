@@ -24,3 +24,17 @@
         padding-top: 39px;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .menu{
+        padding-top: 25px;
+    }
+
+    .logo{
+        padding: 16px 0;
+    }
+
+    .sign_in{
+        display: none;
+    }
+  }

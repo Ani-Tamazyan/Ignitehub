@@ -11,7 +11,6 @@
         h2{
             padding-top: 19px;
             color: var(--Brand-Primary-Cetacean-Blue);
-            color:  #080E54;
             font-family: Montserrat;
             font-size: 34px;
             font-style: normal;
@@ -100,11 +99,11 @@
         .Industries{
             margin-top: 17px;
         
-            li:nth-child(4) {
-                button{
-                    width: 140px;
-                }
-            }
+            // li:nth-child(4) {
+            //     button{
+            //         width: 140px;
+            //     }
+            // }
         }
         
         .Regions{
@@ -140,6 +139,10 @@
         .map{
             .map1, .map2, .map3, .map4, .map5, .map6, .map7, .map8, .map9{
                 position: absolute;       
+            }
+
+            .selected_map path{
+                fill: red;
             }
 
             .map1{
@@ -189,6 +192,146 @@
         }
     }   
 }
+
+
+// @media only screen and (max-width: 768px) {
+//     .NewsPart1{
+//         padding-bottom: 19px;
+    
+//         .NewsPart1_wrapper{
+//             position: relative;
+       
+//             h2{
+//                 padding-top: 19px;
+//                 color: var(--Brand-Primary-Cetacean-Blue);
+//                 font-size: 18px;
+//                 font-weight: 600;
+//                 max-width: 61px;
+    
+//                 span{
+//                     font-size: 18px;
+//                     font-weight: 600;
+//                 }
+//             }
+    
+//             p{
+//                 font-size: 14px;
+//                 margin-top: 15px;
+//             }
+    
+//             .Industries, .Regions{
+//                 max-width: 554px;
+    
+//                 h3{
+//                     font-size: 16px;
+//                     font-weight: 600;
+//                     line-height: 150%; 
+//                     position: relative;
+//                 }
+//                 h3::after{
+//                     display: none;
+//                 }
+    
+//                 ul{
+//                     margin-top: 8px;
+//                     // display: flex;
+//                     // align-items: flex-start;
+//                     // flex-wrap: wrap;
+//                     // gap: 16px;
+//                     // align-items: center;
+//                     // justify-content: center;
+//                     float: 1 0 0;
+    
+//                     button{
+//                         width: 132px;
+//                         // height: 30px;
+//                         font-size: 14px;
+//                     }
+//                 }
+//             }
+    
+//             .Industries{
+//                 margin-top: 8px;
+//             }
+            
+//             .Regions{
+//                 margin-top: 16px;
+
+//                 li:nth-child(4) {
+//                 button{
+//                    font-size: 13px;
+//                    padding: 8.5px 5.5px;
+//                 }
+//             }
+//             }
+    
+//             .reset{
+//                 margin-top: 42px;
+    
+//             }
+    
+//             .reset::after{
+//                 position: absolute;
+//                 bottom: 0;
+//             }
+    
+//             .map{
+//                 .map1, .map2, .map3, .map4, .map5, .map6, .map7, .map8, .map9{
+//                     position: absolute;       
+//                 }
+    
+//                 .selected_map path{
+//                     fill: red;
+//                 }
+    
+//                 .map1{
+//                     top: 71px;
+//                     right: 175px;
+//                 }
+    
+//                 .map2{
+//                     top: 310px;
+//                     right: 108.4px;
+//                 }
+    
+//                 .map3{
+//                     top: 100.27px;
+//                     right: 130.76px;
+//                 }
+    
+//                 .map4{
+//                     top: 297px;
+//                     right: 194px;
+//                 }
+    
+//                 .map5{
+//                     top: 280px;
+//                     right: 196px;
+//                 }
+    
+//                 .map6{
+//                     top: 273px;
+//                     right: 217.59px;
+//                 }
+    
+//                 .map7{
+//                     top: 292px;
+//                     right: 212.2px;
+//                 }
+    
+//                 .map8{
+//                     top: 89.5px;
+//                     right: 192.8px;
+//                 }
+    
+//                 .map9{
+//                     top: 70px;
+//                     right: 1px;
+//                 }
+//             }
+//         }   
+//     }
+// }
 
 
 
