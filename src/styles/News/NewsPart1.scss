@@ -142,7 +142,8 @@
             }
 
             .selected_map path{
-                fill: red;
+                fill: var(--Brand-Primary-Cetacean-Blue);
+                fill-opacity: 1;
             }
 
             .map1{
